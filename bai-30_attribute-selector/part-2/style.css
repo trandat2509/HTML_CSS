@@ -1,0 +1,22 @@
+[title~="public"]{
+    color: cadetblue;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+[title*="troi"]{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: crimson;
+    background-color: cadetblue;
+}
+[title|="em"]{
+    color: thistle;
+    font-size: small;
+}
+[title^="pic"]{
+    color: brown;
+    font-size: x-large;
+}
+[title$="pic"]{
+    color: hotpink;
+    font-size: xx-large;
+}

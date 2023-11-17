@@ -1,0 +1,25 @@
+.box {
+  width: 200px;
+  height: 200px;
+  /* border: 10px solid; */
+}
+.box1{
+    background-color: gold;
+    /* border-color: forestgreen; */
+    border: 10px solid green;
+}
+.box2{
+    background-color: fuchsia;
+    border: 30px solid blue;
+    /* border-color: sienna; */
+    margin-left: 220px;
+}
+.box3{
+    background-color: yellowgreen;
+    border: 50px solid navy;
+    /* border-color: gray; */
+    margin-left: 480px;
+}
+
+
+

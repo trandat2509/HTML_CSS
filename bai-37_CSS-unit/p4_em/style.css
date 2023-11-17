@@ -1,0 +1,19 @@
+/* .child {
+  font-size: 10px;
+  width: 10em;
+  height: 10em;
+  background-color: violet;
+}
+.parent {
+  font-size: 20px;
+} */
+.parent {
+  font-size: 10px;
+}
+.child {
+  /* display: inline; */
+  font-size: 2em;
+  width: 2em;
+  height: 2em;
+  background-color: green;
+}

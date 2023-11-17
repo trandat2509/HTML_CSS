@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  letter-spacing: 20px;
+}
+.banner1 {
+  word-spacing: 20px;
+}
+.banner {
+  text-align: justify;
+}
+.logo {
+  display: block;
+  text-align: right;
+}

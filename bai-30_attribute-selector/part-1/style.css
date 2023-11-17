@@ -1,0 +1,11 @@
+p[href] {
+  color: hotpink;
+  font-size: 20px;
+}
+[target="_blank"] {
+  color: lawngreen;
+}
+[target="_self"]{
+    color: indigo;
+    font-size: 25px;
+}

@@ -1,0 +1,12 @@
+a.click1:link  {
+  color: rgb(6, 199, 51);
+}
+a.visited:link{
+  color: goldenrod;
+}
+.click2:link{
+  color: yellowgreen;
+}
+.click2:visited{
+  color: violet;
+}

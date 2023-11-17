@@ -1,0 +1,12 @@
+h2.title{
+    color: red;
+}
+h3.title{
+    color: blue;
+}
+a{
+    color: rebeccapurple;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}

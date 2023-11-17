@@ -1,0 +1,28 @@
+h1 {
+  width: 300px;
+  height: 200px;
+  background: cadetblue;
+  color: indianred;
+  padding: 20px;
+  /* border: 5px solid black; */
+  border-top: 5px dashed silver;
+  border-bottom: 5px dotted hotpink;
+  border-left: 5px outset firebrick;
+  border-right: 5px ridge darkblue;
+}
+
+h2 {
+  width: 180px;
+  height: 180px;
+  background: palegreen;
+  color: tomato;
+  padding: 30px;
+  border: 10px solid blue;
+  border-width: 10px 10px 10px 10px;
+  border-color: rebeccapurple maroon rgb(74, 5, 202);
+  border-style: outset inset ridge double;
+  /* border-radius: 30px; */
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 80px;
+}

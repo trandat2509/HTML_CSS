@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute elector part 2</title>
+    <link rel="stylesheet" href="/bai-30_attribute-selector/part-2/style.css" />
+  </head>
+  <body>
+    <!-- cú pháp: [attribute~="value"], 
+        VD: [title~="public"], 
+        ý nghĩa: chọn tất các thẻ có thuộc tính: "title" có chứa từ "public" -->
+    <!-- chú ý: từ public phải đứng riêng lẻ chứ không được đứng sát vs chữ khác (trước sau phải ngăn bằng dấu cách) -->
+    <a href="" target="_blank" title="anh ay la public3">Lấy tài liệu ở đây.</a
+    ><br />
+    <a href="" target="_blank" title="neu toi khong la public"
+      >Lấy tài liệu ở đây.</a
+    ><br />
+    <a href="" target="_self" title="dung vay. la public2"
+      >Lấy tài liệu ở đây.</a
+    ><br />
+
+    <!-- cú pháp: [attribute*=value], 
+        VD: [title*="troi"], 
+        ý nghĩa: chọn tất cả các thẻ có thuộc tính: "title"có chứa từ "troi" trong chuỗi giá trị -->
+    <!-- VD: troi12, troidatsinhsoi,... -->
+    <a href="" title="bien troi34 menh mong">tôi là ai</a><br />
+    <a href="" title="troi dat xanh ngat, thien nhien rong lon">tôi là ai</a
+    ><br />
+    <a href="" title="sinh ra tư troidat, toi song bang cach an khong khi"
+      >tôi là ai</a
+    ><br />
+
+    <!-- cú pháp: [attribute|=value], 
+        VD: [title|= em], 
+        ý nghĩa: chọn tất cả các thẻ có thuộc tính: "title" có từ duy nhất bắt đầu bằng chữ "em" -->
+    <!-- lưu ý: từ đứng đầu tiên chỉ có thể đứng đơn lẻ (một mình nó) hoặc các từ phía sau phải nối nhau bằng dấu "-" -->
+    <a href="" title="em-la-tat-ca-cua-toi">click vào đây</a><br />
+    <a href="" title="toi sinh ra la de danh cho toi">click vào đây</a><br />
+    <a href="" title="em">click vào đây</a><br />
+
+    <!-- cú pháp: [attribute^=value], 
+        VD: [title^=pic], 
+        ý nghĩa: chọn tất cả các thẻ có thuộc tính: "title" có từ bắt đầu bằng chữ "pic" (không quan tâm đằng sau nó như thế nào) -->
+    <a href="" title="pic123">thích em từ lâu</a><br />
+    <a href="" title="23pic">thích em từ lâu</a><br />
+    <a href="" title="pic toi là ai">thích em từ lâu</a><br />
+
+    <!-- cú pháp: [attribute$=value], 
+        VD: [title$=pic], 
+        ý nghĩa: chọn tất cả các thẻ có thuộc tính: "title" mà kết thúc bằng từ "pic" -->
+    <a href="" title="3pic">yêu em rất nhiều</a><br />
+    <a href="" title="pic 3">yêu em rất nhiều</a><br />
+    <a href="" title="pic 3">yêu em rất nhiều</a><br />
+  </body>
+</html>

@@ -1,0 +1,13 @@
+/* body{
+    width: 650px;
+    margin: 0 auto;
+
+} */
+strong {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 3px;
+  margin: 3px;
+  background-color: green;
+}

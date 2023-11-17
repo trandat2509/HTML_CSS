@@ -1,0 +1,17 @@
+/* .box {
+  background-color: green;
+  display: inline-block;
+  width: 50%;
+}
+.box_child {
+  background-color: yellow;
+  width: 50%;
+} */
+
+.parent {
+  /* font-size: 60px; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.line1 {
+  font-size: 100%;
+}

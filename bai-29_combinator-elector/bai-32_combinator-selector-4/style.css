@@ -1,0 +1,17 @@
+/* chọn thẻ đứng ngay sau nó dùng + */
+/* h1+h2{
+    color: firebrick;
+    font-size: 20px;
+}
+.sad.sad-1+h3,p{
+    color: violet;
+    font-size: 20px;
+} */
+h1 ~ h3.sad {
+  color: navy;
+}
+div ~ div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: burlywood;
+}

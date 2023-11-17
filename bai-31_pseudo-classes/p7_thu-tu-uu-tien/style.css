@@ -1,0 +1,22 @@
+/* universal selector */
+*{
+    color: green !important;
+    font-size: 25px;
+
+}
+
+/* element selector */
+p{
+    color: rebeccapurple;
+}
+
+/* class - pseudo-class */
+.demo{
+    color: royalblue;
+}
+
+/* ID */
+#theh1{
+    color: yellowgreen;
+}
+

@@ -1,0 +1,18 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: yellow;
+    background: #000;
+    /* padding-top: 40px;
+    padding-left: 30px; */
+    /* trên dưới - trái phải */
+    padding: 20px 10px;
+  
+    /* trên - trái phải - dưới */
+    padding: 20px 10px 30px;
+  
+    /* trên  */
+    text-align: center;
+    
+  }
+  

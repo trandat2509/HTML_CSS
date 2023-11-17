@@ -1,0 +1,21 @@
+p {
+  color: greenyellow;
+  font-size: 20px;
+}
+h1 {
+  color: blue;
+}
+#phr2{
+    color: indigo;
+    font-size: 24px;
+}
+.film{
+    color: rosybrown;
+}
+.film-2{
+    color: hotpink;
+    font-size: 30px;
+}
+.future{
+    list-style: none;
+}

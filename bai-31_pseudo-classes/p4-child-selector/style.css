@@ -1,0 +1,47 @@
+p:first-child {
+  color: tomato;
+  font-size: 20px;
+}
+p:last-child {
+  color: blue;
+  font-size: 30px;
+}
+.demo p:nth-last-child(3) {
+  color: palevioletred;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.demo2 p:nth-child(odd) {
+  color: blueviolet;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.demo2 p:nth-child(even) {
+  color: rgb(14, 223, 108);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.demo3 p:nth-child(2n + 1) {
+  /*
+    Trong đó n đi từ 0 lên
+    VD: 2n + 1 thì:
+    n = 0 -> 1
+    n = 1 -> 3
+    n = 2 -> 5
+    ...
+     */
+  color: seagreen;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+/* Các trường hợp trên đều áp dụng cho nth-last-child */
+
+.demo4 p:only-child {
+    /* Thẻ p trong trường hợp này phải là thẻ con duy nhất
+    Nếu có thẻ khác ngoài thẻ p thì thẻ p này không còn được tính là thẻ p duy nhất nữa */
+  color: cornflowerblue;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: brown;
+}

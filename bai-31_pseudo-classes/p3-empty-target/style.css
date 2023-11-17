@@ -1,0 +1,19 @@
+.home:empty{
+    background-color:sienna ;
+    width: 200px;
+    height: 200px;
+}
+.home{
+    background-color: brown;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+h2:target{
+    color: blue;
+}
+ul a{
+    color: cadetblue;
+    list-style: none;
+    text-decoration: none;
+}

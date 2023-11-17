@@ -1,0 +1,16 @@
+*{
+    background-color: darkgray;
+    /* font-size: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+.demo{
+    font-size: 18px;
+    color: rgb(126, 3, 44);
+    /* line-height: 30p; */
+    list-style: none;
+}
+h1.demo{
+    font-size: 30px;
+    color: darkblue;
+}
