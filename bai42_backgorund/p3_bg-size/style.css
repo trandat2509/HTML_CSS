@@ -1,0 +1,12 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  width: 500px;
+  height: 700px;
+  background-image: url(https://i.pinimg.com/474x/93/9b/2e/939b2ecc02679fb1820e49773d38c8ae.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: 100px 100px;
+  border: 2px solid #000;
+}

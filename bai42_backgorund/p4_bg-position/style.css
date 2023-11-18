@@ -1,0 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  width: 500px;
+  height: 600px;
+  background-image: url(https://images.pexels.com/photos/1496372/pexels-photo-1496372.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  border: 2px solid #ffffff;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+img {
+  width: 15%;
+}
