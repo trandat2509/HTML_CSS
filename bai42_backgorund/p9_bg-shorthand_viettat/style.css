@@ -1,0 +1,63 @@
+.box {
+  /* background: bg-color 
+  bg-image 
+  position/bg-size 
+  bg-repeat 
+  bg-origin 
+  bg-clip 
+  bg-attachment 
+  initial|inherit; */
+  width: 200px;
+  height: 200px;
+  border: 40px dotted #05a9ca;
+  padding: 50px;
+
+  /* màu nền */
+  /* background-color: blue; */
+  /* ảnh nền */
+  /* background-image: url(./bg/1.PNG); */
+
+  /* vị trí bắt đầu ảnh */
+  /* background-position: top right; */
+  /* vị trí bắt đầu ảnh: tính theo số đo đơn vị */
+  /* background-position: 66% 30%; */
+
+  /* kích thước hình ảnh */
+  /* background-size: contain; */
+  /* background-size: cover; */
+  /* background-size: 100%; */
+
+  /* background-repeat: ảnh có lặp lại hay không */
+  /* background-repeat: no-repeat; không lặp lại */
+  /* mặc định là repeat: ảnh có lặp lại */
+
+  /* background-origin: xác định gốc ảnh nền đặt ở vị trí nào */
+  /* background-origin: padding-box; trạng thái mặc định là nằm ở padding */
+  /* background-origin: border-box; */
+  /* background-origin: content-box; */
+
+  /* background-clip: quyết định nền đổ tử vùng nào*/
+  /* mặc định nền đổ từ border-box vào trong  */
+  /* background-clip: border-box; */
+  /* background-clip: padding-box; */
+  /* background-clip: content-box; */
+  /* những phần không được đổ nền sẽ bị che đi */
+
+  /* background-attachment: mặc định ảnh bị cuộn theo khi di chuyển thanh cuộn */
+  /* background-attachment: scroll; */
+  /* background-attachment: fixed ảnh cố định khi kéo scroll */
+  /* background-attachment: fixed; */
+  /* background-attachment: ảnh cố định khi kéo scroll trong box con(ảnh sẽ di chuyển dính liền với nội dung) */
+  /* background-attachment: local; */
+
+  /* background: bg-color 
+  bg-image 
+  position/bg-size 
+  bg-repeat 
+  bg-origin 
+  bg-clip 
+  bg-attachment 
+  initial|inherit; */
+  background: rebeccapurple;
+  background: rebeccapurple url(./bg/1.PNG) center / contain no-repeat padding-box border-box fixed ;
+}
