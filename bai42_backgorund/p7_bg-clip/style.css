@@ -1,0 +1,27 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-image: url(./bg/1.PNG);
+  border: 30px dotted #676666;
+  padding: 30px;
+  background-size: cover;
+  /* background-position: -60% -100px; */
+  background-clip: content-box;
+}
+/* h1 {
+  color: transparent;
+} */
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .text-highlight {
+    background: linear-gradient(
+      90deg,
+      rgba(128, 5, 204, 1) 31%,
+      rgba(23, 138, 218, 1) 70%,
+      rgba(8, 211, 223, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
