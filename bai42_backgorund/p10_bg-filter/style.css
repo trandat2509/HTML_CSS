@@ -1,0 +1,10 @@
+body {
+  background: url(./bg/winner.jpg);
+  background-size: cover;
+}
+.box {
+  height: 200px;
+  background: rgba(238, 130, 238, 0.439);
+  margin-top: 50px;
+  backdrop-filter: blur(50px);
+}

@@ -1,0 +1,21 @@
+.box {
+  width: 1000px;
+  height: 100px;
+  margin: 50px auto;
+  background: linear-gradient(
+    90deg,
+    rgba(128, 5, 204, 1) 31%,
+    rgba(23, 138, 218, 1) 70%,
+    rgba(8, 211, 223, 1) 100%
+  );
+  /* box-shadow: offset x   offset y    blur   spread   color; */
+  box-shadow: inset 30px -10px 10px 20px #cecece;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background: yellow;
+  /* đổ nhiều bóng cùng lúc */
+  box-shadow: 120px 0 red, 0 120px green, 120px 120px blue;
+}
