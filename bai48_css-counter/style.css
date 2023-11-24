@@ -1,0 +1,36 @@
+.box {
+  counter-reset: section;
+  background: linear-gradient(
+    90deg,
+    rgba(200, 28, 242, 1) 31%,
+    rgba(15, 186, 153, 1) 70%,
+    rgba(15, 68, 209, 1) 100%
+  );
+}
+h2 {
+  /* tăng biến đếm lên 1 */
+  counter-increment: section;
+  /* tạo biến đếm và reset biến đếm nếu gặp thẻ h3 thì sẽ về 0 */
+  counter-reset: sub-section;
+}
+h2::before {
+  /* thêm trước thẻ 2 */
+  content: "Phần " counter(section) ": ";
+  background: linear-gradient(
+    90deg,
+    rgba(28, 242, 171, 1) 31%,
+    rgba(16, 118, 241, 1) 70%,
+    rgba(15, 68, 209, 1) 100%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+h3 {
+  /* tăng biến đếm nếu gặp thẻ h3 */
+  counter-increment: sub-section;
+}
+h3::before {
+  content: counter(section) "." counter(sub-section) ". ";
+  padding-left: 20px;
+}

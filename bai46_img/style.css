@@ -1,0 +1,19 @@
+p {
+  font-size: 14px;
+  text-align: justify;
+  text-indent: 20px;
+  color: #fff;
+}
+.demo {
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 30px;
+}
+.box {
+  max-width: 800px;
+  background-color: gray;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}

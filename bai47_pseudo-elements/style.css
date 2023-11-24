@@ -1,0 +1,50 @@
+.box {
+  max-width: 700px;
+  margin: 0 auto;
+}
+/* first-line: tác dụng lên dòng tiên của phần tử được gọi */
+span {
+  display: block;
+}
+span::first-line {
+  color: tomato;
+  font-size: 14px;
+}
+p {
+  text-align: justify;
+}
+.doan-van-1::first-line {
+  color: seagreen;
+}
+
+/* first-letter: tác động lên chữ các đầu tiên của text */
+.doan-van-1::first-letter {
+  font-size: 30px;
+  color: indigo;
+}
+
+/* selection: chọn vùng đang được bôi đen của text để tác động thuộc tính */
+::selection {
+  color: yellowgreen;
+  background-color: rgb(75, 74, 74);
+}
+
+/* marker: chọn các điểm đánh dấu của phần tử li */
+li::marker {
+  color: burlywood;
+  font-size: 30px;
+}
+
+/* before: thêm phần tử vào đằng trước box */
+.box::before {
+  content: "Trùng sinh vào ma tôn";
+  background-color: chocolate;
+}
+/* after: thêm phần tử vào đằng sau box */
+.box::after {
+  display: inline-block;
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: khaki;
+}

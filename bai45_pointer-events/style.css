@@ -1,0 +1,18 @@
+img.anh-demo {
+  max-width: 500px;
+  pointer-events: none;
+}
+.btn-home {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(176, 5, 120, 1) 31%,
+    rgba(161, 0, 209, 1) 70%,
+    rgba(228, 0, 252, 1) 100%
+  );
+  font-size: 20px;
+  text-decoration: none;
+  pointer-events: none;
+}
