@@ -1,0 +1,45 @@
+:root {
+  --bg-color: rgb(13, 175, 190);
+  --box-height: 100px;
+  --box-margin: 20px;
+}
+.box1 {
+  height: var(--box-height);
+  background-color: var(--bg-color);
+  margin-bottom: var(--box-margin);
+}
+.box2 {
+  height: var(--box-height);
+  background-color: var(--bg-color);
+  margin-bottom: var(--box-margin);
+  /* font-size: var(--p_font-size); */
+}
+.box3 {
+  height: var(--box-height);
+  background-color: var(--bg-color);
+  margin-bottom: var(--box-margin);
+}
+/* có thể bị ghi đè theo thứ tự ưu tiên */
+.box3 {
+  height: 200px;
+}
+
+.detail {
+  --p_font-size: 20px;
+  font-size: var(--p_font-size);
+}
+.detail span {
+  font-size: var(--p_font-size);
+}
+.content {
+  --bg: linear-gradient(
+    90deg,
+    rgba(200, 28, 242, 1) 31%,
+    rgba(15, 186, 153, 1) 70%,
+    rgba(15, 68, 209, 1) 100%
+  );
+}
+.box4 {
+  background: var(--bg, purple);
+  height: 150px;
+}

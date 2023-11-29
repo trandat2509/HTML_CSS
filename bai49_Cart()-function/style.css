@@ -1,0 +1,14 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  height: 100px;
+  background-color: #aaa;
+  width: calc(3 * 200px);
+  margin: 0 auto;
+}
+.main-content {
+  background-color: #666161;
+  height: calc(100vh / 2);
+}
