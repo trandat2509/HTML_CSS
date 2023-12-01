@@ -1,0 +1,14 @@
+.pic-1 {
+  width: 200;
+  float: left;
+  padding: 10px;
+}
+.pic-2 {
+  float: right;
+  width: 300px;
+  padding: 10px;
+}
+p {
+  clear: both;
+  text-align: justify;
+}

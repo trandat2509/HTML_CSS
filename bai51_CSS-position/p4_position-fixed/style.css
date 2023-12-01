@@ -1,0 +1,36 @@
+.mes-bottom a {
+  font-size: 4rem;
+  color: rgb(12, 93, 233);
+  /* background-color: #fff; */
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  /* border-radius: 50%; */
+}
+p {
+  text-align: justify;
+  text-indent: 10px;
+}
+.nav {
+  background-color: #555;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 20px;
+}
+h1 {
+  margin-top: 76px;
+}
