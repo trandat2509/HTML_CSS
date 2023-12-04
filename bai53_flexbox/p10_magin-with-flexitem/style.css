@@ -1,0 +1,31 @@
+/* .container {
+  display: flex;
+  height: 100vh;
+  background-color: cyan;
+  flex-direction: column;
+}
+.box1 {
+  background-color: tan;
+}
+.box2 {
+  background-color: rgb(199, 115, 6);
+}
+.box3 {
+  background-color: rgb(17, 209, 116);
+  margin-left: auto;
+}
+.box4 {
+  background-color: rgb(121, 26, 176);
+} */
+.container {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+.fa-youtube {
+  font-size: 5rem;
+  color: red;
+  margin: auto;
+}

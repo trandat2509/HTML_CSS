@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* .box {
+  background-color: #eee;
+  border: 1px solid #474646;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: rgb(49, 49, 34);
+  margin: 10px;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #e49c9c;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  flex-direction: column-reverse;
+  flex-direction: column;
+} */
+
+.box {
+  background-color: blue;
+  width: 30%;
+  border: 3px solid rgb(145, 12, 160);
+}
+.container {
+  display: flex;
+  height: 50vh;
+  background-color: cyan;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  /* cú pháp viết tắt */
+  flex-flow: wrap column-reverse;
+}
