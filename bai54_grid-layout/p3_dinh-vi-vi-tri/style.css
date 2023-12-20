@@ -1,0 +1,105 @@
+/* .box1,
+.box4,
+.box5 {
+  background: aqua;
+}
+.box2,
+.box3 {
+  background: blue;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted black;
+}
+.container {
+  display: grid;
+  grid-template-columns: 100px repeat(2, 50px);
+  grid-template-rows: repeat(3, 100px);
+} */
+
+/* chi dinh vi tri cu the cho phan tu */
+/* .box1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.box5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}  */
+
+/* tao hinh luoi gom 5 cot, 3 dong
+- neu de dinh dang so dong va cot am thi no se dinh vi nguoc lai */
+.box1 {
+  background: green;
+  /* grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3; */
+
+  /* cú pháp viết tắt */
+  /* grid-row: 1/3;
+  grid-column: 1/3; */
+
+  /* cú pháp viết tắt 2 */
+  grid-area: 1/1 / 3/3;
+}
+.box2 {
+  background: red;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.box3 {
+  background: blue;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.box4 {
+  background: yellow;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.box5 {
+  background: brown;
+  grid-row: span 2;
+}
+.box6 {
+  background: orange;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  border-radius: 15px;
+  border: 3px dotted #e6b7b7;
+}
+.container {
+  display: inline-grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  background: rgb(183, 180, 180);
+}
+
+/*.box2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}.box2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+} */

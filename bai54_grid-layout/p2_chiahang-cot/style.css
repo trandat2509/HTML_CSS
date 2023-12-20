@@ -1,0 +1,55 @@
+.box1,
+.box4,
+.box5 {
+  background: aqua;
+}
+.box2,
+.box3 {
+  background: rebeccapurple;
+}
+.box {
+  display: flex;
+  /* padding: 0 10px; */
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.container {
+  display: grid;
+  /* width: calc(100% - 20px); */
+
+  /* 1. cách chia hàng và cột trong grid */
+  /* grid-template-columns: auto;
+  grid-template-columns: auto; */
+
+  /* 2. chia cột theo giá trị kích thước */
+  /* grid-template-columns: 20vw 20vw;
+  grid-template-rows: 30vh 40vh 30vh; */
+
+  /* 3. gap: quy định khoảng cách giữa các ô */
+  /* quy định khoảng cách giữa các dòng */
+  /* grid-row-gap: 10px; */
+  /* quy định khoảng cách giữa các cột */
+  /* grid-column-gap: 20px; */
+  /* viết tắt */
+  /* gap: 10px; */
+
+  /* 4. dùng repeat để lặp lại các cột giống nhau */
+  /* grid-template-columns: 40vw repeat(4, 13.8vw);
+  grid-template-rows: 10vw repeat(2, 20vw); */
+
+  /* 5. chia hàng và cột trong grid theo trọng số */
+  /* grid-template-columns: 1fr 4fr 3fr 2fr;
+  grid-template-rows: 2fr 4fr 6fr 8fr; */
+
+  /* 6. sử dụng giá trị auto để chia cột */
+  /* grid-template-columns: 200px auto; */
+  /* giá trị auto không được tính cho dòng */
+  /* grid-template-rows: auto 400px 300px; */
+
+  /* 7. sử dụng giá trị min - max để giới hạn kích thước phần tử */
+  grid-template-columns: minmax(100px, 300px) minmax(200px, auto);
+  grid-template-rows: repeat(2, minmax(70px, 150px)) 200px;
+}

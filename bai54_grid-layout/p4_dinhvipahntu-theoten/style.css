@@ -1,0 +1,85 @@
+/* code beauty
+.box1,
+.box2,
+.box5 {
+  background: aqua;
+}
+.box3,
+.box4 {
+  background: blue;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 500px;
+}
+.container {
+  display: grid;
+  gap: 10px;
+
+  dinh vi phan tu theo ten
+  grid-template-areas:
+    "header header header"
+    "menu content sidebar"
+    "menu footer footer";
+}
+.box1 {
+  grid-area: header;
+}
+.box2 {
+  grid-area: menu;
+}
+.box3 {
+  grid-area: content;
+}
+.box4 {
+  grid-area: sidebar;
+}
+.box5 {
+  grid-area: footer;
+} */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "item1 item1 item2 item2 item2"
+    "item1 item1 item4 item4 item5"
+    "item3 item3 item4 item4 item6";
+  height: 100vh;
+}
+
+.item1 {
+  background: greenyellow;
+  grid-area: item1;
+}
+
+.item2 {
+  background: rgb(9, 165, 154);
+  grid-area: item2;
+}
+
+.item3 {
+  background: rgb(11, 38, 107);
+  grid-area: item3;
+}
+
+.item4 {
+  background: rgb(92, 2, 72);
+  grid-area: item4;
+}
+
+.item5 {
+  background: rgb(230, 6, 70);
+  grid-area: item5;
+}
+
+.item6 {
+  background: rgb(158, 125, 14);
+  grid-area: item6;
+}

@@ -1,0 +1,35 @@
+/* code beauty */
+.box1,
+.box2,
+.box5 {
+  background: aqua;
+}
+.box3,
+.box4 {
+  background: blue;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.container {
+  display: inline-grid;
+  padding: 20px;
+  background: #dfdddd;
+  gap: 10px;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 50px 100px 200px;
+  /* align-items: stretch;
+  align-items: center;
+  align-items: start;
+  align-items: end; */
+
+  justify-items: stretch;
+  justify-items: center;
+  justify-items: start;
+  justify-items: end;
+  justify-items: left;
+  justify-items: right;
+}

@@ -1,0 +1,27 @@
+/* code beauty */
+.box1,
+.box2,
+.box5 {
+  background: aqua;
+}
+.box3,
+.box4 {
+  background: blue;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted #000;
+}
+
+.container {
+  display: grid;
+  background: #dfdddd;
+  gap: 10px;
+  /* grid-template-columns: repeat(5, 100px); */
+  grid-template-rows: repeat(3, 100px);
+
+  grid-auto-flow: column;
+}
+
